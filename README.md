@@ -17,6 +17,7 @@ This project involved an in-depth understanding of the dataset provided which in
 The dataset was taken through several techniques starting from the the filling of missing values with the median due to outliers in the dataset. Next, the missing values in the categorical features were dropped.
 
 ### Features Engineering
+Log Transform a logarithmic transformation technique was applied to features to reduce skewness in data ().
 data['room_conv'] = data['bedroom'] / data['bathroom']
 
 data['size'] = data['bedroom'] + data['bathroom'] + data['parking_space']
