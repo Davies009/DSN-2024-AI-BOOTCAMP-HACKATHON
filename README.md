@@ -27,7 +27,7 @@ The dataset was taken through several techniques starting from the the checking 
 train_l["trestbps_log"]=np.log(train_l["trestbps"])
 test_l["trestbps_log"]=np.log(test_l["trestbps"])
 
-## The MinMaxScaler was used to scale and normalize features by rescaling the values to be within a specified range
+# The MinMaxScaler was used to scale and normalize features by rescaling the values to be within a specified range
 test_l["thalach_m"]=scaler.fit_transform(test_l[["thalach"]])
 test_l["age_m"]=scaler.fit_transform(test_l[["age"]])
 
