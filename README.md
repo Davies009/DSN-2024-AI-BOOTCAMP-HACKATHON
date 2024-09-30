@@ -1,9 +1,8 @@
 # DSN-2024-AI-BOOTCAMP-QUALIFICATION-HACKATHON
-# Heart Disease prediction
+# Heart-Disease-prediction
 ## Introduction
-Wazobia Real Estate Limited is a prominent real estate company operating in Nigeria. With a vast portfolio of properties, they strive to provide accurate and competitive pricing for houses. However, they have been facing challenges in accurately predicting the prices of houses in the current market.
-The objective of this project is to create a powerful and accurate predictive model that can estimate the prices of houses in Nigeria. By leveraging a comprehensive dataset, various factors that impact house prices, identify meaningful patterns are analyzed. he ultimate goal is to provide Wazobia Real Estate Limited with an effective tool to make informed pricing decisions and enhance their competitiveness in the market.
-### N.B: This is a winning solution to the 2023 DSN & Microsoft Machine Learning hackathon.
+The challenge at hand revolves around the creation of a sophisticated predictive model aimed at determining the likelihood of an individual having heart disease. As one of the leading causes of global mortality, detecting heart disease in its early stages is pivotal for enhancing patient outcomes and halting its progression. The conventional diagnostic methods often come with substantial costs and time requirements. Thus, there exists a pressing need for a cutting-edge predictive model that can evaluate the risk of heart disease utilizing easily accessible patient information.
+The objective of this challenge is to design and build a predictive model capable of accurately determining the probability of an individual having heart disease. The focus is on leveraging machine learning techniques to create a model that can analyze relevant features and provide reliable predictions. The model should demonstrate high accuracy and generalizability, ensuring its effectiveness on new, unseen data.
 
 ## Problem Statement
 The project is aimed at using historical housing data in Nigeria to predict the price of houses in different states. It harnesses the combined the application of: 
@@ -38,19 +37,16 @@ bedroom: 19.554140457133617
 
 ## Features
 The key features and functionalities used in this solution include:
-+ Target Encoding
 + Feature Engineering 
 + Setting the right number of splits
 
 ## Technologies Used
 + Python programming language
-+ 2 T4 NVIDIA GPUs
 + Pandas
 + Scikit-learn
-+ Catboost
-+ Kaggle Notebook Kernel
++ Randoom forest
++ Jupyter notebook
 
 ### Result
 The model performed a 326440.862 RMSE score on the public leader board and 326440.862 RMSE score on the private leaderboard. This result placed me 5th postion on the leaderboard.
 
-Link to the Leaderboard standings: https://zindi.africa/competitions/free-ai-classes-in-every-city-hackathon-2023/leaderboard
